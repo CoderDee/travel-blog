@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="travel-luggage-with-stickers.png" type="image/png"> <!--подключение иконки в title-->
+    <title>Travels Blog</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script  src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.googleapis.com/css?family=Bitter&subset=latin" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        
+    <div class="header">
+               
+        <div class="menu">
+            <div class="overlay"><label for="sidemenucheckbox"></label></div> 
+            <label id="sidemenutoggler" for="sidemenucheckbox" onClick="legacybrowsertoggle()">Toggle Menu</label>
+            <input type="checkbox" id="sidemenucheckbox" />
+            <nav id="leftsidemenu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">PROJECTS</a></li>
+                    <li><a href="">SERVICES AND PRICES</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CONTACTS</a></li>
+                </ul>
+                <label id="closex" for="sidemenucheckbox" onClick="legacybrowsertoggle()">Close</label>
+            </nav>
+        </div>
+        <!-- место для поисковика-->
+        <div class="search-wrapper">
+            <div class="input-holder">
+                <input type="text" class="search-input" placeholder="Type to search" />
+                <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+            </div>
+            <span class="close" onclick="searchToggle(this, event);"></span>
+        </div>
+
+    </div>
+            
+    <div class="container">
+            <div class="gallery_1">
+
+                <figure class="gallery__item gallery__item--1">
+              
+                    <img src="img/1.png" alt="Gallery image 1" class="gallery__img">
+                   
+                    <a href="https://www.instagram.com/zoo_and_nature/" target="blanck" title="instagram.com"><img src="img/icon_inst.png" alt="icon_inst.png"></a>
+                  
+                </figure>
+
+                <figure class="gallery__item gallery__item--2">
+                 
+                    <img src="img/2.png" alt="Gallery image 2" class="gallery__img">
+                    <a href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/icon_inst.png" alt="icon_inst.png"></a>
+                </figure>
+
+                <figure class="gallery__item gallery__item--3">
+                    <img src="img/3.png" alt="Gallery image 3" class="gallery__img">
+                    <p>life in the countryside</p>
+                    <h1>Back on the countryside</h1>
+                    <h4>It feels more like home, then the city</h4>
+                    <a class="round_3" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a> <!--пробная адаптация-->
+                </figure>
+
+                <figure class="gallery__item gallery__item--4">
+                    <img src="img/4.png" alt="Gallery image 4" class="gallery__img">
+                    <p>eat, pray & love</p>
+                    <h1>Food Ninja</h1>
+                    <h4>Everybody likes to eat.</h4>
+                    <a class="round_4" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+
+                <figure class="gallery__item gallery__item--5">
+                    <img src="img/5.png" alt="Gallery image 5" class="gallery__img">
+                    <p>keep exploring</p>
+                    <h1>Travel & Explore</h1>
+                    <h4>I dream of travelling the stars</h4>
+                    <a class="round_5" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+            </div>
+
+            <div class="gallery_2">
+                <figure class="gallery__item gallery__item--6">
+                    <img src="img/6.png" alt="Gallery image 1" class="gallery__img">
+                    <p>explore the unknown</p>
+                    <h1>I can see the sun shining like a diamond up high</h1>
+                    <h4>It feels more like home, then the city</h4>
+                    <a class="round_6" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+               <figure class="gallery__item gallery__item--6">
+                    <img src="img/7.png" alt="Gallery image 2" class="gallery__img">
+                    <p>sunset wishes</p>
+                    <h1>Sunset is a pretty thing, so bathed in mystery</h1>
+                    <h4>That fall so endlessly</h4>
+                    <a class="round_67" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+               
+            </div>
+           
+            <div class="gallery_3">
+                <figure class="gallery__item gallery__item--7">
+                    <img src="img/8.png" alt="Gallery image 1" class="gallery__img">
+                    <p>Hidden Gem</p>
+                    <h1>Deserted island</h1>
+                    <h4>My heart is a deserted island, lost in a big ocean</h4>
+                    <a class="round_7" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+
+                <figure class="gallery__item gallery__item--8">
+                    <img src="img/9.png" alt="Gallery image 2" class="gallery__img">
+                    <p>soul food</p>
+                    <h1>Soul food</h1>
+                    <h4>Nothin' like home cookin'</h4>
+                    <a class="round_9" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+
+                <figure class="gallery__item gallery__item--9">
+                    <img src="img/10.png" alt="Gallery image 3" class="gallery__img">
+                    <a href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/icon_inst.png" alt=""></a>
+                </figure>
+
+                <figure class="gallery__item gallery__item--10">
+                   <img src="img/11.png" alt="Gallery image 4" class="gallery__img">
+                   <a href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/icon_inst.png" alt=""></a>
+                </figure>
+
+                <figure class="gallery__item gallery__item--11">
+                    <img src="img/12.png" alt="Gallery image 5" class="gallery__img">
+                    <p>experience nature</p>
+                    <h1>Learning to kayak</h1>
+                    <h4>Splish splash splish splash</h4>
+                    <a class="round_12" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+
+                <figure class="gallery__item gallery__item--12">
+                    <img src="img/13.png" alt="Gallery image 5" class="gallery__img">
+                    <p>you & culture</p>
+                    <h1>Closer with culture</h1>
+                    <h4>Two cultures worlds apart</h4>
+                    <a class="round_13" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+            </div>
+
+            <div class="gallery_2">
+                <figure class="gallery__item gallery__item--6">
+                   <img src="img/14.png" alt="Gallery image 1" class="gallery__img">
+                   <p>relax & enjoy life</p>
+                   <h1>Take a leave from regular life</h1>
+                   <h4>Go have some genuine fun</h4>
+                   <a class="round_14" href="https://www.instagram.com/priroda____mira/" target="blanck" title="instagram.com"><img src="img/round_button.png" alt="round_button"></a>
+                </figure>
+             </div>
+           
+         <footer>
+            
+                <img class="load" src="img/Loader.png" alt="Loader">
+           
+         </footer>  
+           
+           
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+                
+           
+    </div>
+    
+</body>
+</html>
