@@ -1019,8 +1019,8 @@ left: 81vw;
 .load{display: block;margin: 0 auto;}  
 
 footer img.load {
-    animation: 2s linear 0s normal none infinite running rot;
-    -webkit-animation: 2s linear 0s normal none infinite running rot;
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 1s linear 0s normal none infinite running rot;
     }
   @keyframes load {
     0% {
