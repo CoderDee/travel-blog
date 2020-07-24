@@ -476,7 +476,7 @@ transition: all 0.3s ease-in-out;
     top: 0;
     left: 0;
     width: 0%;
-    height: 10px;
+    height: 5px;
     background: linear-gradient(to right, #008aff,#00ffe7);
     z-index: 100;
 }
